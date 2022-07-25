@@ -1,0 +1,6 @@
+CRITICAL - 2022-07-22 04:28:19 --> Call to undefined method Modules\Section\Controllers\Api\Section::getLastQuery()
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->removeTeacherFromSection()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

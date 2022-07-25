@@ -1,0 +1,24 @@
+CRITICAL - 2022-07-21 02:26:37 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->save()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 02:28:24 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->save()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 02:28:27 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->save()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 02:29:41 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->save()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

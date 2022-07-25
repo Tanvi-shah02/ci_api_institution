@@ -1,0 +1,12 @@
+ERROR - 2022-07-18 02:35:45 --> Unknown column 'at.firstName' in 'field list'
+CRITICAL - 2022-07-18 02:35:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Assigned_teacher_model.php(43): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(184): App\Modules\Section\Models\Assigned_teacher_model->teachersList('3')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getTeacherList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-18 02:36:07 --> Unknown column 'at.firstName' in 'field list'
+ERROR - 2022-07-18 07:48:49 --> Unknown column 'users.id' in 'on clause'

@@ -1,0 +1,250 @@
+CRITICAL - 2022-07-19 01:26:06 --> Call to undefined function Modules\Holiday\Controllers\Api\pritn_r()
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Holiday\Controllers\Api\Holiday->save()
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Holiday\Controllers\Api\Holiday))
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-19 01:30:02 --> Table 'great-minds-web-api.holiday_details' doesn't exist
+ERROR - 2022-07-19 05:15:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:15:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:15:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:15:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:15:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:15:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:15:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:15:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:15:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:16:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:16:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:16:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:16:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:18:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:18:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:18:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(66): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:23:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:23:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+CRITICAL - 2022-07-19 05:23:28 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-19 05:25:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:27:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:32:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:32:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id.1: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `...' at line 6
+CRITICAL - 2022-07-19 05:32:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(81): CodeIgniter\BaseModel->findAll(0, 0)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 05:35:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+CRITICAL - 2022-07-19 05:35:58 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-19 05:36:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:36:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 05:36:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+CRITICAL - 2022-07-19 05:36:40 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-19 05:37:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 06:03:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 11
+CRITICAL - 2022-07-19 06:03:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, -5)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(81): CodeIgniter\BaseModel->findAll(5, -5)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, '5', '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-19 06:03:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 11
+CRITICAL - 2022-07-19 06:03:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(1, -1)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(81): CodeIgniter\BaseModel->findAll(1, -1)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, '1', '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-19 06:39:52 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:42:33 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:42:36 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:42:38 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:50:07 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:50:12 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 06:50:32 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(130): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-19 07:16:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 11
+CRITICAL - 2022-07-19 07:16:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, -5)
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Models\Section_model.php(79): CodeIgniter\BaseModel->findAll(5, -5)
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(132): App\Modules\Section\Models\Section_model->getList('1', 0, 5, '')
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#4 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#5 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-19 07:17:51 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 07:17:53 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-19 07:20:39 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-19 23:43:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 23:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+ERROR - 2022-07-19 23:44:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:{$this-` > table}.id: ESCAPE '!' 
+OR  `{$this->table}`.`section`` LIKE` `:{...' at line 6
+CRITICAL - 2022-07-19 23:48:43 --> Object of class App\Modules\Section\Models\Section_model could not be converted to string
+#0 C:\xampp\htdocs\great-minds-web-api\ci_app\app\Modules\Section\Controllers\Api\Section.php(131): App\Modules\Section\Models\Section_model->getList('1', 0, 0, '')
+#1 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(832): Modules\Section\Controllers\Api\Section->getList()
+#2 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Section\Controllers\Api\Section))
+#3 C:\xampp\htdocs\great-minds-web-api\ci_app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\great-minds-web-api\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
